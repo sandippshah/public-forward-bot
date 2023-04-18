@@ -11,7 +11,7 @@ class Config:
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     SESSION = os.environ.get("SESSION", "BQANzlUAqZOAf3bccmYIU-QFbQbp7Z_hvvtWH6NLminUXm7eYyPs2caNZMe-qLZR88ZBRPapctq6PBI3JgTRZcBjhi4mmu_o6kiw6N83plLNeFp56Yuuxg_WVMBQZuzFNqu9-WkWj2-Jp0DMibWvD2qnozpDj5XigygYAIr-zj6JcLG07fifsxTVoJ9Vybvup5Sy-qQCVupbiMQOMNud3UzYkYc0hvYhPaKNjknEYjAroYzDGk3BROLq2wFKeh0RfyxbdeHGRu29ed82F0PRiM5N3Dl7JEkb5ZImOXhhLW-dU8ynALetJUjgB1Wh4z3UKVRLpwKWWgeUTYdhGNQxLkVGkL3iNgAAAAA7zbY8AA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001792799649"))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", "@clone_878_bot")
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", "clone_878_bot")
 
 
 def LOGGER(name: str) -> logging.Logger:
